@@ -1,0 +1,78 @@
+/*selektor uniwersaly*/
+* {
+    color:red;
+}
+ul {
+    list-style: none;
+}
+/*psełdo elementy*/
+
+ul li::before {
+    content:"+";
+}
+
+ul li::after {
+    content: "asasdadsad";
+}
+ul li::first-letter {
+    color:yellow;
+}
+#main-header .header-inner p::first-line {
+    color:beige;
+}
+a:link {
+    color:pink;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color:aquamarine;
+}
+a:active {
+    color:chartreuse;
+}
+/*
+input:focus {
+    border: 3px solid red;
+}
+*/
+div:target {
+    border: 1px solid black;
+}
+div:lang(pl) p {
+    color:blueviolet;
+}
+ul li:first-child a{
+    color:violet;
+}ul li:last-child a{
+    color:skyblue;
+}
+#only-child :only-child {
+    color:brown;
+}
+#second-ul li:nth-of-type(3) {
+    font-size: 20px;
+}
+#second-ul li:nth-of-type(3n+2) {
+    font-size: 30px;
+    color: green;
+}
+input[type] {
+    border: 3px solid #000;
+}
+input[type="tel"] {
+    border: 3px solid red;
+}
+input[title~="input"] {
+    border: 3px solid blue;
+}
+input[title*="rz"] {
+    border: 3px solid green;
+}
+input[title^="pi"] {
+    border: 3px solid violet;
+}
+input[title$="ci"] {
+    border: 3px solid brown;
+}
