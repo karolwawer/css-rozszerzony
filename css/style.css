@@ -86,3 +86,62 @@ input[title$="ci"] {
 #clear{
     clear: both;
 }
+
+.transition {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    margin-top: 20px;
+}
+.transition:hover {
+    background-color: green;
+    
+}
+.square{
+    width: 150px;
+    height: 150px;
+    margin:auto;
+    margin-bottom: 10px;
+    transition: 0.5s;    
+}
+#kwadrat-szerokosc{
+    background-color: red;    
+}
+#kwadrat-szerokosc:hover {
+    width: 300px;
+}
+#kwadrat-wysokosc{
+    background-color: blue;  
+
+}
+#kwadrat-wysokosc:hover{
+    height: 300px;
+}
+#kwadrat-szer-wys{
+    background-color: green;    
+}
+#kwadrat-szer-wys:hover {
+    width: 300px;
+    height: 300px;
+}
+.background {
+    
+    height: 500px;
+/*    background-color: rgba(0,0,0.5);*/
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)) ,url("http://www.tapeta-lampart-grafika-3.na-pulpit.com/zdjecia/lampart-grafika-3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
+.overflow{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed #000;
+    margin-top: 10px;
+    overflow: auto;
+}
