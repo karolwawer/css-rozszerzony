@@ -143,5 +143,5 @@ input[title$="ci"] {
     height: 300px;
     border: 1px dashed #000;
     margin-top: 10px;
-    overflow: auto;
+    overflow: hidden;
 }

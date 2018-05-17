@@ -1,0 +1,16 @@
+@media all and (max-width: 1200px) {
+    .background {
+        width:50%;
+    }
+    @media all and (max-width: 992px) {
+    .background {
+        width:50%;
+    }
+        @media all and (max-width: 767px) {
+    .background {
+        width:50%;
+    }
+            @media all and (max-width: 480px) {
+    .background {
+        width:50%;
+    }
